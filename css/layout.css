@@ -1,0 +1,224 @@
+header{
+    display: flex;
+    align-items: center; 
+    background-color: rgba(252, 202, 149);
+    min-height: 80px; 
+    border: 2px solid #963102;     
+     width: 100%;
+}
+
+nav {
+    width: 100%;
+    border:2px solid #963102;
+}
+
+.menu{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:rgba(252, 202, 149);
+    gap: 15px;
+    height: 5vw;        
+    height: auto;   
+    padding: 10px;
+}  
+
+.fonte-diferente{
+   font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+ color:#963102
+
+}
+
+.logotipo {
+    display:flex;
+    height: 7rem;
+}
+
+.introdução,.referenciasmenu, .galeriamenu, .rodapemenu, .painelmenu, .bannermenu{
+    border: 2px solid #963102;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.sub2, .sub4{ color: #01325a}
+
+
+.img{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 2vw;
+}
+
+.img img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+a{
+    text-decoration: none;
+    color: #963102;
+}
+
+.container{
+    display: flex; 
+   flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:4vw;
+    width: 90vw;
+   padding: 10px;
+}
+
+#bobby{
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+}
+#boris{
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+}
+
+
+.ft{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.ft1{
+    width: 350px;
+    height: auto;
+}
+
+.ft2{
+    width: 350px;
+    height: auto;
+}
+
+.ft3{
+    width: 350px;
+    height: auto;
+}
+
+
+.ft4{
+    width: 350px;
+    height: auto;
+}
+
+
+
+.voltar{
+    display: inline-block;
+    border: 2px solid #963102;
+     border-radius: 20px;
+     padding: 4px;
+    margin-bottom: 12px;
+    }
+
+    ul{
+    list-style-type: none;
+}
+
+.rodape{
+   display: flex;
+   flex-direction: column; 
+   justify-items: center;
+   justify-content: center;
+   background-color:rgba(252, 202, 149);
+     text-align: center; 
+    font-size: 14px;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    color:#581c00;
+    border: 2px solid #963102;
+}
+
+ .painel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 4px;
+}
+
+   .krikor, .supi, .juliana, .rafael, .mequinho{
+    width: 100%;
+   height: 300px;
+    object-fit: cover;
+} 
+
+.form {
+    margin-top: 10rem;  
+    margin-bottom: 10rem;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.form img {
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.formulario {
+    display: block;
+    border: 2px solid #963102;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 30px;
+}
+
+.quadro{
+    width: 90vw;
+    height: 40vw;
+    margin: 12px
+}
+
+.tabuleiro{   
+    width:30vw;
+    height: 30vw;
+    background-image: url(/img/torneiobanner.jpeg);
+    background-size: cover;
+    position:relative;
+    left:1vw;
+    top:2vw;
+  
+    animation-name: desloca;  
+    animation-duration: 10s;       
+    animation-iteration-count: infinite;  
+    animation-timing-function:linear;   
+  }
+
+  @keyframes desloca {
+    0%   {transform: 
+                    translate(0vw)
+                    scale(1)
+        }  
+    50% {transform:
+                    translate(30vw)
+                    scale(1)            
+        }   
+    100% {transform:
+                    translate(0vw) 
+                    scale(1)           
+        }
+  }
