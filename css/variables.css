@@ -1,0 +1,9 @@
+:root {
+    /* Cores */
+    --letter-color: #064e7e;
+    --background-color: #badef6;
+    --bodybackground-color: #dbe7f7;
+    --destack-color:rgb(171, 128, 19);
+    
+    /* Fontes */
+    --font-base: "Roboto", sans-serif;

@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth; /* Rolagem suave ao clicar em âncoras */
+    text-size-adjust: 100%; /* Melhora renderização de texto no mobile */
+  }
+
+body{
+    font-family: "Lora", serif;
+    background-color: rgb(255, 220, 174);    
+    padding: 0;
+    margin: 0;
+}
+
+h1,h3{
+    text-align: center;
+    text-decoration: underline;
+    color: #01325a;
+    padding-top: 7vw;
+    padding-bottom: 2vw;
+}
+
+h2{
+    color:#680404;
+    text-align: center;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+    overflow-wrap: break-word;
+  }
+
+p{
+    padding-left: 2rem;
+}
