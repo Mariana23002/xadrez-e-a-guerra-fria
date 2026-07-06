@@ -196,7 +196,7 @@ a{
 .tabuleiro{   
     width:30vw;
     height: 30vw;
-    background-image: url(..img/torneiobanner.jpeg);
+    background-image:url(img/torneiobanner.jpeg);
     background-size: cover;
     position:relative;
     left:1vw;
